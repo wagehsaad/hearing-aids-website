@@ -1,0 +1,363 @@
+*{
+
+box-sizing:border-box;
+max-width: 100%;
+min-width: auto;
+z-index: 1;
+position: static;
+
+}
+/* ******* start navbar css ******* */
+.navbar-brand{
+    color: #1B5996 !important;
+    font-family: fantasy;
+    font-size: 2.1rem;
+    letter-spacing: .1rem;
+}
+.nav-link{
+color: #1B5996 !important;
+transition: all 2s;
+letter-spacing:.01rem;
+margin: 5px;
+
+}
+.nav-link:hover{
+color: #1B5996 !important;
+background: #2aafea !important;
+border-bottom: 1px solid #1B5996 !important; 
+transition: all 2s;
+
+}
+.navbar{
+
+font-size: 1.3rem;
+font-weight: 600;
+ font-family:sans-serif ;
+ z-index: 99;
+}
+
+
+/* ******* end navbar css ******* */
+
+/* ******* start hoem css ******* */
+.home{
+    
+    /*min-height:auto;*/
+    
+    
+ width: auto;
+ background: #2aafea !important;
+z-index: 1;
+}
+.homecontent{
+
+letter-spacing:.0rem;
+color:white;
+
+}
+.homecontent h1{
+font-size: 1.0rem;
+font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+
+}
+.homecontent h3{
+font-size: 1.3rem;
+font-weight: 600;
+ font-family:sans-serif ;
+}
+.homecontent h2{
+font-size: 3rem;
+font-weight: 600;
+ font-family:sans-serif ;
+}
+.homecontent a{
+    color: #FFFF;
+}
+
+/* ******* end home css ******* */
+
+
+
+
+</* ******** start for about css ******* */
+.about{
+width: auto;
+height: auto;
+background-color: #f8f8f8;
+z-index: 1;
+
+
+}
+.about h3{
+font-size: 2rem;
+font-weight: 800;
+color: #1B5996 !important;
+}
+.about p{
+font-size: 1.4rem;
+font-weight: 500;
+color: black!important;
+font-family: fantasy;
+}
+.about img{
+max-width: 100%;
+height: auto;
+padding-top: 50px;
+
+}
+.about .fa-check{
+ color: #1B5996 !important;
+}
+.about img{
+border-top-left-radius: 15%;
+border-bottom-right-radius: 15%;
+}
+.alll{
+    background: #f8f8f8 !important;
+
+}
+</* ******** End for about css ******* */
+
+</* ******** start for products css ******* */
+
+.products{
+
+width: auto;
+height: 100%;
+ background: #f8f8f8;
+ background-size: 100%;
+z-index: 1;
+}
+
+.products h3{
+ color: #1B5996 !important;
+ font-size: 2rem;
+font-weight: 800;
+}
+
+.products-card{
+height:auto;
+}
+.products-card h3{
+color: #1B5996 !important;
+font-size: 1.6rem;
+font-weight: 700;
+}
+
+
+.products{
+ background: #f8f8f8;
+ background-size: 100%;
+
+}
+.card1 {
+    
+    
+    border: solid .1rem black; 
+    position: relative;
+    overflow: hidden;
+    transition: all 3s;
+
+     
+     
+}
+.products-card img{
+transition: all 2s;
+/*border-bottom: solid .01rem black; */
+width: 100%;
+transition: all 3s;
+transition-delay: 1s;
+     
+
+
+}
+.card1:hover.card1 img{
+transform: scale(1.2,1.2);
+transition: all 4s;
+}
+.cards{
+position: absolute;
+background-color:rgba(10,10,10,.7);
+top: 0px;
+left: 0px;
+width: 100%;
+height: 100%;
+text-align: center;
+transition: all 4s;
+overflow: hidden;
+opacity: 0;
+}
+.card1:hover .cards{
+transform: rotate(360deg);
+opacity:1;
+height: 100%;
+transition: all 3s;
+}
+.cards h3{
+color:#fff!important;
+}
+
+</* ******** End for products css ******* */
+
+</* ******** start for messages css ******* */
+
+.messages p{
+font-size: 2rem;
+font-weight: 800;
+color: #1B5996 !important;
+}
+.messages-content h2{
+font-size: 2rem;
+font-weight: 800;
+color: #1B5996 !important;
+}
+.messages-content ul li{
+font-size: 2rem;
+font-weight: 800;
+color: #1B5996 !important;
+transition: all 3s;
+
+}
+.messages-content li:hover{
+
+transition: all 2s;
+color: rgb(29, 161, 242) !important;
+}
+
+</* ******** End for messages css ******* */
+
+</* ******** start for services css ******* */
+.services{
+
+width: auto;
+height: auto;
+z-index: 1;
+}
+.services-cards img{
+border-radius: 50%;
+overflow: hidden;
+transition: all 3s;
+}
+.services-cards img:hover {
+transform: scale(1.2,1.2);
+overflow: hidden;
+transition: all 3s;
+}
+.services-cards{
+overflow: hidden;
+}
+.card{
+overflow: hidden;
+}
+</* ******** End for services css ******* */
+</* ******** Start for convuised css ******* */
+.convinced h2{
+color: #1B5996 !important;
+background-color: #D9C0CF!important;
+}
+
+
+.convinced button{
+    
+margin: 13px 0 0 0;
+border: 2px solid transparent;
+padding: 20px 28px;
+font-weight: bold;
+font-family: 'Open Sans',arial;
+color: #1B5996 !important;
+background: #2aafea !important;
+border-bottom: 1px solid #1B5996 !important; 
+transition: all 2s;
+}
+
+.convinced button:hover{
+    
+margin: 13px 0 0 0;
+padding: 20px 28px;
+font-weight: bold !important;
+font-family: 'Open Sans',arial;
+background-color: #1B5996 !important;
+color: #D9C0CF!important; 
+border-bottom: 3px solid #1B5996 !important; 
+transition: all 3s;
+}
+</* ******** End for convuised css ******* */
+</* ******** start for footer css ******* */
+.pages a{
+color: #1B5996 !important;
+transition: all 2s;
+letter-spacing:.01rem;
+margin: 5px;
+ 
+}
+.a:hover{
+color: #1B5996 !important;
+background: #2aafea !important;
+border-bottom: 1px solid #1B5996 !important; 
+transition: all 2s;
+
+}
+footer  {
+color: #58606b;
+font-size: 14px;
+
+background: #2aafea !important;
+
+}
+footer h4 {
+color: #f8f8f8;
+font-size: 14px;
+}
+footer h3 {
+
+color: #f8f8f8;
+font-size: 1.3rem;
+font-weight: 550;
+
+}
+
+
+footer p {
+color: #f8f8f8;
+font-size: 14px;
+}
+
+
+           /*`End  of Footer section*/
+.footer{
+height: auto;
+color: #f8f8f8;
+font-size:20px;
+background-color: #000;
+}
+</* ******** End for footer css ******* */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

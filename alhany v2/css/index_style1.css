@@ -1,0 +1,174 @@
+*{
+
+box-sizing:border-box;
+max-width: 100%;
+min-width: auto;
+
+
+}
+/* ******* start navbar css ******* */
+.navbar-brand{
+    color: #1B5996 !important;
+    font-family: fantasy;
+    font-size: 2.1rem;
+    letter-spacing: .1rem;
+}
+.nav-link{
+color: #1B5996 !important;
+transition: all 2s;
+letter-spacing:.01rem;
+margin: 5px;
+
+}
+.nav-link:hover{
+color: #1B5996 !important;
+background: #2aafea !important;
+border-bottom: 1px solid #1B5996 !important; 
+transition: all 2s;
+
+}
+.navbar{
+
+font-size: 1.3rem;
+font-weight: 600;
+ font-family:sans-serif ;
+}
+
+
+/* ******* end navbar css ******* */
+
+/* ******* start hoem css ******* */
+.home{
+    
+    /*min-height:auto;*/
+    
+    
+ width: auto;
+ background: #2aafea !important;
+}
+.homecontent{
+
+letter-spacing:.0rem;
+color:white;
+
+}
+.homecontent h1{
+font-size: 1.0rem;
+font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+
+}
+.homecontent h3{
+font-size: 1.3rem;
+font-weight: 600;
+ font-family:sans-serif ;
+}
+.homecontent h2{
+font-size: 3rem;
+font-weight: 600;
+ font-family:sans-serif ;
+}
+.homecontent a{
+    color: #FFFF;
+}
+
+/* ******* end home css ******* */
+
+
+
+
+
+</* ******** start for footer css ******* */
+.foot{
+
+}
+footer  {
+color: #58606b;
+font-size: 14px;
+
+background: #2aafea !important;
+
+}
+footer h4 {
+color: #f8f8f8;
+font-size: 14px;
+}
+footer h3 {
+
+color: #f8f8f8;
+font-size: 1.3rem;
+font-weight: 550;
+
+}
+
+footer p {
+color: #f8f8f8;
+font-size: 14px;
+}
+
+
+           /*`End  of Footer section*/
+.footer{
+height: auto;
+color: #f8f8f8;
+font-size:20px;
+background-color: #000;
+}
+</* ******** End for footer css ******* */
+
+
+</* ******** start for type css ******* */
+
+
+
+.type{
+background-color:red;
+background-size: auto;
+}
+
+.types-hearing-aide{
+background-color:#f8f8f8;
+
+}
+
+.types-hearing-aide h2 {
+
+color: #1B5996 !important;
+font-size: 3rem;
+font-weight: 900;
+font-family: sans-serif;
+
+}
+
+.types-hearing-aide h3 {
+
+color: #007bff !important;
+font-size: 2rem;
+font-weight: 800;
+letter-spacing: .1rem;
+}
+
+.types-hearing-aide p{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
